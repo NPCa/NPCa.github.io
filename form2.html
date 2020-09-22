@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<title>请假详情</title>
+    	<meta charset="utf-8">
+    	<style type="text/css">
+    	*{
+            padding:0;
+            margin:0;
+        }
+        ul{
+            list-style-type:none;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        }
+                /*清除浮动*/
+
+        .clear:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+        }
+    		img{
+    			margin: 0 auto;
+    			display: block;
+    		}
+    		body{
+    			background-color: #f5f6f8;
+    			height: 2500px
+    		}
+    		.box1{
+    			border: 3px solid #ebecee;
+    			width: 998px;
+    			height: 620px;
+    			margin: 0 auto;
+    			background-color: white;
+    		}
+    		.box1>span{
+    			margin-left: 40px;
+    			height: 120px;
+    			line-height: 120px;
+    			color: #232730;
+    			font-size: 39px;
+    		}
+    		.box1 li{
+    			width: 998px;
+    		}
+    		.box1>ul>li>span{
+    			float: left;
+    			color: #929395;
+    			font-size: 36px;
+    			margin-left: 40px;
+    			height: 60px;
+    			width: 230px;
+    			line-height: 60px;
+    		}
+    		.box1>ul>li{
+    			font-size: 36px;
+    			font-weight: 500;
+    		}
+    		.box2{
+    			border: 3px solid #ebecee;
+    			width: 998px;
+    			height: 420px;
+    			margin: 0 auto;
+    			background-color: white;
+    			margin-top: 30px;
+    		}
+    		.box2>span{
+    			margin-left: 40px;
+    			height: 120px;
+    			line-height: 120px;
+    			color: #232730;
+    			font-size: 39px;
+    		}
+    		.box2>ul>li>span{
+    			border-radius: 50%;
+    			height: 35px ;
+    			width: 35px;
+    			display: inline-block;
+    			border:4px solid ;
+    			vertical-align:middle;
+    			margin-right: 30px;
+    		}
+    		.box2>ul>li{
+    			margin-left: 80px;
+    			height: 62px;
+    			line-height: 62px;
+    			font-size: 34px;
+    			font-weight: 500;
+    			color: #929395;
+    		}
+    		#one{
+    			border-color: #4e8bcc;
+    		}
+    		#two{
+    			border-color: #34a97c;
+    		}
+    		#tg{
+    			display: inline-block;
+    			color: #21b07b;
+    		}
+    		.right{
+    			float: right;
+    			margin-right: 50px;
+    			font-size: 32px;
+    		}
+    		.text{
+    			color: #909193;
+    			border: 3px solid #d9dde0;
+    			height: 87px;
+    			width: 775px;
+    			border-radius: 15px;
+    			float: right;
+    			margin-right: 50px;
+    			padding-left: 25px;
+    			font-size: 33px;
+    			line-height: 87px;
+    			background-color: #f6f7f9;
+    			margin-top: 20px;
+    		}
+    		.text1{
+    			color: white;
+    			border: 0 solid white;
+    			height: 87px;
+    			width: 900px;
+    			border-radius: 10px;
+    			text-align: center;
+    			font-size: 33px;
+    			line-height: 87px;
+    			background-color: #4482f1;
+    			margin-top: 20px;
+    			margin: 40px auto;
+    			display: block;
+    		}
+    		.text2{
+    			color:black;
+    			border: 4px solid #dbdcde;
+    			height: 87px;
+    			width: 900px;
+    			border-radius: 10px;
+    			text-align: center;
+    			font-size: 33px;
+    			line-height: 87px;
+    			background-color: white;
+    			margin-top: 20px;
+    			margin: 0px auto;
+    			display: block;
+    		}
+    		.rap{
+    			display: none;
+    		}
+    	</style>
+    	<script type="text/javascript">
+    		function none(){
+    			document.getElementById("img1").style.display="none"
+    			document.getElementById("img2").style.display="block"
+    		}
+    		function display(){
+    			document.getElementById("img1").style.display="block"
+    			document.getElementById("img2").style.display="none"
+    		}
+    	</script>
+    </head>
+    <body>
+    	<img id="img1" src=".\img1.jpg" onclick="none()">
+    	<img id="img2" class="rap" src=".\img2.jpg" onclick="display()">
+    	<div class="box1">
+    		<span>我的 请假单</span><br>
+    		<ul>
+    			<li class="clear"><span>开始时间：</span>09-25 12:00</li>
+    			<li class="clear"><span>结束时间：</span>09-25 24:00</li>
+    			<li class="clear"><span>审批流程：</span>共一步 <a style="color: #268bd9" href="#">查看></a></li>
+    			<li class="clear"><span>紧急联系人：</span>1359975108</li>
+    			<li class="clear"><span>请假原因：</span>眼镜坏了，出校配个眼镜</li>
+    			<li class="clear"><br></li>
+    			<li class="clear"><span>发起位置：</span><a style="color: #268bd9" href="#">中国福建省厦门市集美区会通北路</a></li>
+    			<li class="clear"><span>抄送人：</span>无</li>
+    		</ul>
+    			
+    		</div>
+    		<div class="box2 clear">
+    			<span>审批状态</span>
+    			<ul>
+    				<li class="clear"><span id="one"></span>郭桢亮 - 发起申请<div class="right">09-25 09:30</div></li>
+    				<li><span id="two"></span>一级：[辅导员]许落汀 - 审批<div id="tg">通过</div><div class="right">09-25 09:30</div></li>
+    			</ul>
+    			<input class="text" type="text" name="suggest" value="审批意见：无">
+    	</div>
+        <a class="text1" href="#">去销假</a>
+        <a class="text2" href="#">转发</a>
+
+    </body>
+    </html>
