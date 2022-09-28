@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://coffepill.top/post/3c2bd137.html</loc>
-    
-    <lastmod>2022-09-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://coffepill.top/post/231a815e.html</loc>
     
     <lastmod>2022-09-19</lastmod>
@@ -32,15 +23,6 @@
     <loc>https://coffepill.top/post/5f8f8107.html</loc>
     
     <lastmod>2022-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://coffepill.top/post/bd261a9c.html</loc>
-    
-    <lastmod>2022-09-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -211,6 +193,13 @@
   </url>
   
   <url>
+    <loc>https://coffepill.top/tags/iView/</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://coffepill.top/tags/hexo/</loc>
     <lastmod>2022-09-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -219,13 +208,6 @@
   
   <url>
     <loc>https://coffepill.top/tags/git/</loc>
-    <lastmod>2022-09-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://coffepill.top/tags/iView/</loc>
     <lastmod>2022-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -270,13 +252,6 @@
   
   <url>
     <loc>https://coffepill.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-09-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://coffepill.top/categories/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95/</loc>
     <lastmod>2022-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
