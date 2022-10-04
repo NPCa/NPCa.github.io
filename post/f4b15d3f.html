@@ -196,7 +196,8 @@
 
 
 
-<h3 id="消除浮动"><a href="#消除浮动" class="headerlink" title="消除浮动"></a>消除浮动</h3><div class="tabs" id="消除浮动"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#消除浮动-1"><i class="fas"></i>方法一</button></li><li class="tab"><button type="button" data-href="#消除浮动-2"><i class="fas"></i>方法二</button></li><li class="tab"><button type="button" data-href="#消除浮动-3"><i class="fas"></i>方法三</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="消除浮动-1"><p>父元素加<code>overflow：hidden</code>属性，没设置高度则会自适应浮动元素高度</p>
+<h3 id="消除浮动"><a href="#消除浮动" class="headerlink" title="消除浮动"></a>消除浮动</h3><div class="tabs" id="消除浮动"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#消除浮动-1"><i class="fas"></i>方法一 BFC</button></li><li class="tab"><button type="button" data-href="#消除浮动-2"><i class="fas"></i>方法二 zoom</button></li><li class="tab"><button type="button" data-href="#消除浮动-3"><i class="fas"></i>方法三 clear：both</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="消除浮动-1"><p>父元素开启BFC</p>
+<p>父元素加<code>overflow：hidden</code>属性，没设置高度则会自适应浮动元素高度</p>
 <blockquote>
 <p>不能和定位一起用，超出部分会隐藏</p>
 </blockquote><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="消除浮动-2"><p>是在父元素中加个<code>clearfloat{zoom：1}</code>属性类</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="消除浮动-3"><blockquote>
