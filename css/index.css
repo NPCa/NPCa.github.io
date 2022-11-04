@@ -239,11 +239,11 @@ hr:before,
 #recent-posts > .recent-post-item:hover,
 #aside-content .card-widget:hover,
 .layout > .recent-posts .pagination > *:not(.space):hover {
-  -webkit-transform: scale(1.012);
-  -moz-transform: scale(1.012);
-  -o-transform: scale(1.012);
-  -ms-transform: scale(1.012);
-  transform: scale(1.012);
+  -webkit-transform: scale(0.97);
+  -moz-transform: scale(0.97);
+  -o-transform: scale(0.97);
+  -ms-transform: scale(0.97);
+  transform: scale(0.97);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1353,11 +1353,11 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #d594ff;
+  --btn-hover-color: #81f2e3;
   --btn-color: #fff;
   --btn-bg: #8aa0e5;
   --text-bg-hover: rgba(138,160,229,0.7);
-  --light-grey: #eee;
+  --light-grey: #9c9c9c;
   --dark-grey: #cacaca;
   --white: #fff;
   --text-highlight-color: #1f2d3d;
@@ -1367,7 +1367,7 @@ canvas:not(#ribbon-canvas),
   --toc-link-color: #666261;
   --card-box-shadow: none;
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
-  --pseudo-hover: #d594ff;
+  --pseudo-hover: #81f2e3;
   --headline-presudo: #a0a0a0;
   --scrollbar-color: #8aa0e5;
 }
@@ -3292,7 +3292,7 @@ h1.page-title + .tag-cloud-list {
 }
 #footer {
   backdrop-filter: blur(10px);
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(208,208,208,0.1);
 }
 #page-header {
   position: relative;
@@ -4801,7 +4801,7 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap {
   --waline-font-size: 1.1em;
   --waline-theme-color: #8aa0e5;
-  --waline-active-color: #d594ff;
+  --waline-active-color: #81f2e3;
 }
 #waline-wrap .vuser {
   -webkit-transition: all 0.5s;
