@@ -209,11 +209,11 @@
     <category term="错题笔记" scheme="https://coffepill.top/categories/%E9%94%99%E9%A2%98%E7%AC%94%E8%AE%B0/"/>
     
     
+    <category term="HTML" scheme="https://coffepill.top/tags/HTML/"/>
+    
     <category term="css" scheme="https://coffepill.top/tags/css/"/>
     
     <category term="js" scheme="https://coffepill.top/tags/js/"/>
-    
-    <category term="HTML" scheme="https://coffepill.top/tags/HTML/"/>
     
   </entry>
   
@@ -238,9 +238,9 @@
     
     <category term="css" scheme="https://coffepill.top/tags/css/"/>
     
-    <category term="随笔" scheme="https://coffepill.top/tags/%E9%9A%8F%E7%AC%94/"/>
-    
     <category term="js" scheme="https://coffepill.top/tags/js/"/>
+    
+    <category term="随笔" scheme="https://coffepill.top/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
