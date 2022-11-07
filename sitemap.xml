@@ -164,20 +164,6 @@
 
   
   <url>
-    <loc>https://coffepill.top/tags/CSS/</loc>
-    <lastmod>2022-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://coffepill.top/tags/Buffterfly4-3-0/</loc>
-    <lastmod>2022-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://coffepill.top/tags/axois/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -186,6 +172,20 @@
   
   <url>
     <loc>https://coffepill.top/tags/vue/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://coffepill.top/tags/CSS/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://coffepill.top/tags/Buffterfly4-3-0/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -250,6 +250,13 @@
 
   
   <url>
+    <loc>https://coffepill.top/categories/vue%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://coffepill.top/categories/CSS%E5%B1%85%E4%B8%AD/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -258,13 +265,6 @@
   
   <url>
     <loc>https://coffepill.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2022-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://coffepill.top/categories/vue%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

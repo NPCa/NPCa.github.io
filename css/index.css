@@ -239,11 +239,11 @@ hr:before,
 #recent-posts > .recent-post-item:hover,
 #aside-content .card-widget:hover,
 .layout > .recent-posts .pagination > *:not(.space):hover {
-  -webkit-transform: scale(0.97);
-  -moz-transform: scale(0.97);
-  -o-transform: scale(0.97);
-  -ms-transform: scale(0.97);
-  transform: scale(0.97);
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -o-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -422,6 +422,14 @@ canvas:not(#ribbon-canvas),
   -o-animation: donate_effcet 0.3s 0.1s ease both;
   -ms-animation: donate_effcet 0.3s 0.1s ease both;
   animation: donate_effcet 0.3s 0.1s ease both;
+}
+#post:hover,
+#card-toc.card-widget:hover {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 @-moz-keyframes scroll-down-effect {
   0% {
